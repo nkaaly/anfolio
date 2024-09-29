@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 108">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #75adff;
+      }
+
+      .cls-2 {
+        font-family: DINCondensed-Bold, 'DIN Condensed';
+        font-size: 119.35px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="59.13 36.57 48.67 22.61 59.13 8.66 69.59 22.61 59.13 36.57"/>
+  <polygon class="cls-1" points="59.13 94.57 48.67 80.61 59.13 66.66 69.59 80.61 59.13 94.57"/>
+  <polygon class="cls-1" points="37.41 66.08 26.96 52.13 37.41 38.17 47.87 52.13 37.41 66.08"/>
+  <polygon class="cls-1" points="80.87 38.17 91.33 52.13 80.87 66.08 70.42 52.13 80.87 38.17"/>
+  <text class="cls-2" transform="translate(-.6 90.66)"><tspan x="0" y="0" xml:space="preserve">[   ]</tspan></text>
+</svg>

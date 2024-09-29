@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/icon" href="element/logo 2.png">
+</head>
+
+<body class="gallerybody">
+    <video class="noise" src="element/noise 6.mp4" autoplay muted loop plays-inline></video>
+
+    <!-- CURSOR SET UP -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav>
+            <a id="logo" href="index.html"><img src="element/logo.svg" width="80px" height="80px"></a>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <img src="element/menu icon2.svg" width="50px" height="50px">
+            </label>
+
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <img src="element/menu icon_x.svg" width="50px" height="50px">
+                </label>
+
+
+                <a class="home-link-mobile" href="index.html">HOME</a>
+                <a class="gallery navText" href="gallery.html">GALLERY</a>
+                <a class="navText" href="info.html">INFO</a>
+            </div>
+        </nav>
+        <script src="nav animation.js"></script>
+    </header>
+
+    <main>
+        <div class="title" id="titleGallery">
+            <p class="fadeInRight2"><span class=" DINtitle">[G]</span>allery</p>
+            <p>What have I been up to?</p>
+        </div>
+
+        <section class="galleryListWrapper">
+            <div class="galleryList" id="galleryList">
+                <div class="menu__item">
+                    <div class="menu__item-image_wrapper">
+                        <div class="menu__item-image_inner">
+                            <img src="element/art/2.jpg" class="menu__item-image">
+
+                        </div>
+                    </div>
+
+                    <a class="menu__item-text cursorItem" href="artworks.html">
+                        <span class="menu__item-innertext">
+                            <p>Artwork Collection</p>
+                            <p class="workinfo"><span class="DIN">Traditional Art
+                                    <br>[On going]</span>
+                            </p>
+                            <p class="workDescription" id="workDes1">This collection features my artworks primarily
+                                using watercolor and other mediums.</p>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="menu__item">
+                    <div class="menu__item-image_wrapper">
+                        <div class="menu__item-image_inner">
+                            <img src="element/clown thumbnail.gif" class="menu__item-image">
+                        </div>
+                    </div>
+
+                    <a class="menu__item-text cursorItem" href="https://vimeo.com/977803996" target="_blank">
+                        <span class="menu__item-innertext">
+                            <p>Circus Fraud</p>
+                            <p class="workinfo"><span class="DIN">2D Animation
+                                    <br>[2024]</span>
+                            </p>
+                            <p class="workDescription" id="workDes2">A short animation made with one of my artworks.</p>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="menu__item">
+                    <div class="menu__item-image_wrapper">
+                        <div class="menu__item-image_inner">
+                            <img src="element/Hymn to Beauty thumbnail.gif" class="menu__item-image">
+                        </div>
+                    </div>
+
+                    <a class="menu__item-text cursorItem"
+                        href="https://giangnguyenday.notion.site/Hymn-to-Beauty-45aadc429bd443b5b105f615a560720e"
+                        target="_blank">
+                        <span class="menu__item-innertext">
+                            <p>Hymn to Beauty</p>
+                            <p class="workinfo"><span class="DIN">Interactive Website
+                                    <br>[2024]</span>
+                            </p>
+                            <p class="workDescription" id="workDes3">A website designed with HTML, CSS, and JS,
+                                integrating interactive elements to
+                                convey the meaning behind the poem "Hymn to Beauty".</p>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="menu__item">
+                    <div class="menu__item-image_wrapper">
+
+                        <div class="menu__item-image_inner">
+                            <img src="element/sushi splash thumbnail.gif" class="menu__item-image">
+                        </div>
+                    </div>
+
+                    <a class="menu__item-text cursorItem"
+                        href="https://www.figma.com/proto/y9ejqOqgb4gBT9Ivt9JYWq/final-final-(Copy)?node-id=1-4&t=xr1XPT3pgwizCvdC-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4&show-proto-sidebar=1"
+                        target="_blank">
+                        <span class="menu__item-innertext">
+                            <p>Sushi Splash</p>
+                            <p class="workinfo"><span class="DIN">Figma Prototype
+                                    <br>[2024]</span>
+                            </p>
+                            <p class="workDescription" id="workDes4">An infographic website prototype incorporating
+                                gamification to guide people in making sushi.</p>
+                        </span>
+                    </a>
+                </div>
+
+
+                <div class="menu__item">
+                    <div class="menu__item-image_wrapper">
+                        <div class="menu__item-image_inner">
+                            <img src="element/ptg/1.jpg" class="menu__item-image">
+                        </div>
+                    </div>
+
+                    <a class="menu__item-text cursorItem" href="ptg.html">
+                        <span class="menu__item-innertext" id="menu__item-innertext-last">
+                            <p>Spirit of the Street</p>
+                            <p class="workinfo"><span class="DIN">Photography
+                                    <br>[On going]</span>
+                            </p>
+                            <p class="workDescription" id="workDes5">See the streets through my lens.</p>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- MOBILE LAYOUT -->
+        <section class="galleryListWrapper--mobile">
+            <div class="galleryList-mobile">
+
+                <div class="menu__item-mobile">
+                    <div class="menu__item-text-mobile">
+                        <p>Artwork Collection</p>
+                        <p class="workinfo">
+                            <span class="DIN">
+                                [ Traditional Art ]
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="menu__item-image-mobile">
+                        <img src="element/art/2.jpg">
+                    </div>
+
+                    <div class="menu__item-text-mobile" id="textbottom">
+                        <span class="DIN">This collection features my artworks primarily using watercolor and other
+                            mediums.</span>
+                        <a href="artworks.html"><img src="element/eye.svg"></a>
+                    </div>
+                </div>
+
+                <div class="menu__item-mobile">
+                    <div class="menu__item-text-mobile">
+                        <p>Circus Fraud</p>
+                        <p class="workinfo">
+                            <span class="DIN">
+                                [ 2D Animation ]
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="menu__item-image-mobile">
+                        <img src="element/clown thumbnail.gif">
+                    </div>
+
+                    <div class="menu__item-text-mobile" id="textbottom">
+                        <span class="DIN">A short animation made with one of my artworks.</span>
+                        <a href="https://vimeo.com/977803996" target="_blank"><img src="element/eye.svg"></a>
+                    </div>
+                </div>
+
+                <div class="menu__item-mobile">
+                    <div class="menu__item-text-mobile">
+                        <p>Hymn to Beauty</p>
+                        <p class="workinfo">
+                            <span class="DIN">
+                                [ Interactive Website ]
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="menu__item-image-mobile">
+                        <img src="element/hymn to beauty thumbnail.gif">
+                    </div>
+
+                    <div class="menu__item-text-mobile" id="textbottom">
+                        <span class="DIN">A website designed with HTML, CSS, and JS, integrating interactive elements to
+                            convey the meaning behind the poem "Hymn to Beauty".</span>
+                        <a href="https://giangnguyenday.notion.site/Hymn-to-Beauty-45aadc429bd443b5b105f615a560720e"
+                            target="_blank"><img src="element/eye.svg"></a>
+                    </div>
+                </div>
+
+                <div class="menu__item-mobile">
+                    <div class="menu__item-text-mobile">
+                        <p>Sushi Splash</p>
+                        <p class="workinfo">
+                            <span class="DIN">
+                                [ Figma Prototype ]
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="menu__item-image-mobile">
+                        <img src="element/sushi splash thumbnail.gif">
+                    </div>
+
+                    <div class="menu__item-text-mobile" id="textbottom">
+                        <span class="DIN">An infographic website prototype incorporating gamification to guide people in
+                            making sushi.</span>
+                        <a href="https://www.figma.com/proto/y9ejqOqgb4gBT9Ivt9JYWq/final-final-(Copy)?node-id=1-4&t=xr1XPT3pgwizCvdC-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4&show-proto-sidebar=1"
+                            target="_blank"><img src="element/eye.svg"></a>
+                    </div>
+                </div>
+
+                <div class="menu__item-mobile">
+                    <div class="menu__item-text-mobile">
+                        <p>Spirit of the Street</p>
+                        <p class="workinfo">
+                            <span class="DIN">
+                                [ Photography ]
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="menu__item-image-mobile">
+                        <img src="element/ptg/1.jpg">
+                    </div>
+
+                    <div class="menu__item-text-mobile" id="textbottom">
+                        <span class="DIN">See the streets through my lens.</span>
+                        <a href="ptg.html"><img src="element/eye.svg"></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+        <div class="bg-container">
+            <img src="element/power move 2 2.gif" data-distance="100">
+            <img src="element/star 3.png" data-distance="200">
+            <img src="element/star 3.png" data-distance="300">
+            <img src="element/star 3.png" data-distance="40">
+            <img id="gallerybg" src="element/gallery bg red 2.gif" data-distance="10">
+        </div> 
+
+    </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+
+
+    <!--  HORIZONTAL SCROLL -->
+    <script>
+        const bgcontainer = gsap.utils.toArray(".bg-container img")
+
+        bgcontainer.forEach((fish, i) => {
+            gsap.from(fish, {
+                xPercent: fish.dataset.distance,
+                scrollTrigger: {
+                    scrub: 0.3
+                }
+            })
+
+        })
+    </script>
+
+
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <!-- LINK HOVER -->
+    <script>
+        const { gsap } = window;
+
+        gsap.timeline().set(".menu", { autoAlpha: 1 })
+            .set(".menu", { PointerEvent: "all" });
+
+        gsap.defaults({
+            duration: 0.55,
+            ease: "expo.out",
+        });
+
+        const menuItems = document.querySelectorAll(".menu__item");
+
+        menuItems.forEach((item) => {
+            const imageWrapper = item.querySelector(".menu__item-image_wrapper");
+            const imageWrapperBounds = imageWrapper.getBoundingClientRect();
+            let itemBounds = item.getBoundingClientRect();
+
+            const onMouseEnter = () => {
+                gsap.set(imageWrapper, {
+                    scale: 0.8,
+                    xPercent: 25,
+                    yPercent: 50,
+                    rotation: -15,
+                });
+                gsap.to(imageWrapper, { opacity: 1, scale: 1, yPercent: 0, rotation: 0 });
+
+            };
+
+            const onMouseLeave = () => {
+                gsap.to(imageWrapper, {
+                    opacity: 0,
+                    yPercent: -50,
+                    xPercent: 25,
+                    scale: 0.8,
+                    rotation: -15,
+                });
+            };
+
+            const onMouseMove = ({ x, y }) => {
+                let yOffset = itemBounds.top / imageWrapperBounds.height;
+                yOffset = gsap.utils.mapRange(0, 1.5, -150, 150, yOffset);
+                gsap.to(imageWrapper, {
+                    duration: 1.25,
+                    x: Math.abs(x - itemBounds.left) - imageWrapperBounds.width / 1.55,
+                    y: Math.abs(y - itemBounds.top) - imageWrapperBounds.height / 0.5 - yOffset / 1.3,
+                });
+            };
+
+            item.addEventListener("mouseenter", onMouseEnter);
+            item.addEventListener("mouseleave", onMouseLeave);
+            item.addEventListener("mousemove", onMouseMove);
+
+            window.addEventListener("resize", () => {
+                itemBounds = item.getBoundingClientRect();
+            })
+        });
+    </script>
+
+    <!-- CURSOR JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="cursor.js"></script>
+
+
+
+
+</body>
+
+</html>
