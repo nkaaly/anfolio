@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Man at sea</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/icon" href="element/logo 2.png">
+    <link rel="stylesheet" href="https://use.typekit.net/owm8ecs.css">
+
+    <script src="fadeInLetter.js"></script>
+</head>
+
+<body class="projectbody">
+    <video class="noise" src="element/noise 6.mp4" autoplay muted loop plays-inline preload="auto"></video>
+
+    <!-- CURSOR SET UP -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <!-- CURSOR JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="cursor.js"></script>
+
+    <header>
+        <nav>
+            <a id="logo" href="index.html"><img src="element/logo.svg" width="80px" height="80px"></a>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <img src="element/menu icon2.svg" width="50px" height="50px">
+            </label>
+
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <img src="element/menu icon_x.svg" width="50px" height="50px">
+                </label>
+
+
+                <a class="home-link-mobile" href="index.html">HOME</a>
+                <a class="gallery navText" href="gallery.html">GALLERY</a>
+                <a class="navText" href="info.html">INFO</a>
+            </div>
+        </nav>
+        <script src="nav animation.js"></script>
+    </header>
+
+    <main>
+        <div id="navigateButtonWrapper1">
+            <div class="navigateButton" id="navigateButton1">
+                <a href="gallery.html">
+                    <img src="element/arrow 3.svg">
+                </a>
+                <p>GALLERY</p>
+            </div>
+        </div>
+
+        <div class="photoContainer">
+            <img src="element/man at sea cover.png">
+        </div>
+
+        <div style="height: 75vh"></div>
+
+        <div class="projectContentWrapper">
+            <div class="projectTitle fadeInRight2">MAN AT SEA</div>
+            <div class="projectDes">
+                <div class="projectDesText fadeInLetter">
+                    Weathered by sun and sea, Cong is a fisherman who reflects Vietnam’s quiet strength. This 3D character design captures an anti-hero defined not by glory, but by resilience and an unwavering moral compass. His gear is simple, his presence steady—an everyday figure shaped by nature and tradition.
+                </div>
+                <div class="projectDetail ">Individual project
+                    </br></br> Year: 2024
+                </div>
+            </div>
+
+            <div class="vimeo-container">
+                <iframe src="https://player.vimeo.com/video/1076859405"
+                        allow="autoplay; fullscreen; picture-in-picture" 
+                        allowfullscreen 
+                        title="Vimeo Video"></iframe>
+            </div>
+
+            <div class="artworkContainer">
+                <div class="row" id="row-1">
+                    <div class="col">
+                        <div class="img-container right">
+                            <img src="element/man at sea screenshot/1.png">
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+    
+                <div class="row" id="row-2">
+                    <div class="col"></div>
+                    <div class="col">
+                        <div class="img-container left">
+                            <img src="element/man at sea screenshot/2.png">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row" id="row-3">
+                    <div class="col">
+                        <div class="img-container right">
+                            <img src="element/man at sea screenshot/3.png">
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+    
+                <div class="row" id="row-4">
+                    <div class="col"></div>
+                    <div class="col">
+                        <div class="img-container left">
+                            <img src="element/man at sea screenshot/4.png">
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="whitespace"></div>
+    
+                <!-- <a href="#" class="navigateButton" id="backToTop"><p>Back to Top</p></a> -->
+                
+            </div>
+
+            <div id="navigateButtonWrapper2" >
+                <div class="navigateButton" id="navigateButton2">
+                    <a href="#">
+                        <img src="element/arrow 3.svg">
+                    </a>
+                    <p>TO TOP</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="imageScroll.js"></script>
+
+    
+
+
+</body>
+</html>

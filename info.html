@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/icon" href="element/logo 2.png">
+    <link rel="stylesheet" href="https://use.typekit.net/owm8ecs.css">
+</head>
+
+<body class="infobody" onload="move('element')">
+    <video class="noise" src="element/noise 6.mp4" autoplay muted loop plays-inline preload="auto"></video>
+
+    <!-- CURSOR SET UP -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav>
+            <a id="logo" href="index.html"><img src="element/logo.svg" width="80px" height="80px"></a>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <img src="element/menu icon2.svg" width="50px" height="50px">
+            </label>
+
+            <div class="links-container">
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <img src="element/menu icon_x.svg" width="50px" height="50px">
+                </label>
+
+
+                <a class="home-link-mobile" href="index.html">HOME</a>
+                <a class="gallery navText" href="gallery.html">GALLERY</a>
+                <a class="navText" href="info.html">INFO</a>
+            </div>
+        </nav>
+        <script src="nav animation.js"></script>
+    </header>
+
+    <main>
+        <div class="stack">
+            <div class="infoSolid"> </div>
+
+            <div class="elementWrapper stack">
+                <div class="element " id="drum"><img src="element/about stickers/drum 2.png"></div>
+                <div class="element " id="sm"><img src="element/about stickers/sm 2.png"></div>
+                <div class="element " id="ptv"><img src="element/about stickers/ptv 2.png"></div>
+                <div class="element" id="flag"><img src="element/about stickers/flag 2.png"></div>
+                <div class="element" id="headphone"><img src="element/about stickers//headphone 2.png"></div>
+                <div class="element" id="mac"><img src="element/about stickers/mac 2.png"></div>
+                <div class="element" id="milu"><img src="element/about stickers/milu.png"></div>
+                <div class="element" id="paintbrush"><img src="element/about stickers/paintbrush 2.png"></div>
+                <div class="element" id="dragme"><img src="element/about stickers/drag me.png"></div>
+                <div class="element" id="dragme2"><img src="element/about stickers/drag me 2.png"></div>
+                <div class="me "><img src="element/me.gif"></div>
+            </div>
+
+        </div>
+
+        <div class="infoBodyWrapper">
+            <div class="infoFrame1"><img src="element/info frame.png"></div>
+
+            <div class="artTextWrapper scrollreveal">
+                <p class="artText">
+                    <span>__art wasn't supposed to look nice, it was supposed to make you feel something__</span>
+                </p>
+            </div>
+
+            <div class="aboutWrapper">
+                <div class="title" id="titleAbout">
+                    <p><span class="DINtitle">[A]</span>bout</p>
+                    <p><span class="DINtitle">AN</span></p>
+                </div>
+
+                <div class="textAbout" id="textAbout">
+
+                    <p> <span class="textAboutTitle">GREETING!</span>
+                        <br>Hi, I’m An—also known as Aly or NKA. I’m a Vietnamese Digital Designer and Illustrator, currently studying Digital Media at RMIT University. My practice spans both physical and digital mediums, driven by a love for experimental and expressive visuals.
+                    </p>
+
+
+                    <!-- <p> <span class="textAboutTitle">HOW I STARTED</span>
+                        <br>I’ve been doing video editing since 2018 and have loved it ever since. It all started when I
+                        saw an edit of my favorite show on the Internet and I thought that was the coolest thing ever
+                        and only if I could do it like them. And I did! I started on my phone and then eventually
+                        switched to my laptop to edit, and After Effects has been my best best friend throughout the
+                        journey. I love the Instagram editing community (iykyk).
+                    </p> -->
+
+
+                    <p><span class="textAboutTitle">MY OTHER HOBBIES</span>
+                        <br>I’m also a music person. I love Alice in Wonderland live-action (love Tim Burton’s style).
+                        My favorite show is Dark. My favorite book is Wuthering Heights.
+                    </p>
+
+                    <div>
+                        <span class="textAboutTitle">COOL! SKILL THOUGH?</span>
+                        <div class="softwareList">
+                            <div>
+                                <img class="AIlogo" src="element/software_ai.png">
+                                <p class="AI">Illustrator</p>
+                            </div>
+                            <div>
+                                <img src="element/software_pts.png">
+                                <p>Photoshop</p>
+                            </div>
+
+                            <div>
+                                <img src="element/software_ae.png">
+                                <p>After Effects</p>
+                            </div>
+
+                            <div>
+                                <img src="element/software_figma.png">
+                                <p>Figma</p>
+                            </div>
+
+                            <div>
+                                <img src="element/software_blender.png">
+                                <p>Blender</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <script>
+                let textAbout = document.getElementById('textAbout');
+
+                window.addEventListener('scroll', () => {
+                    let value = window.scrollY;
+
+                    textAbout.style.marginTop = value * .2 + 'px';
+                });
+            </script>
+
+            <div class="infoFrame2"><img src="element/info frame.png"></div>
+
+        </div>
+
+        <div class="solidContact">
+            <div class="contactWrapper">
+                <div>
+                    <p class="HAPIM">Have a project in mind?</p>
+                </div>
+
+                <div class="computer stack">
+                    <img src="element/computer 3.gif">
+                    <div class="logoIcon">
+                        <a href="https://www.instagram.com/alyxyuu13/" target="_blank" class="iconAnimate"><img
+                                src="element/logo_ig.png"></a>
+                        <a href="https://www.facebook.com/khanhan.ngo.129/" target="_blank" class="iconAnimate"><img
+                                src="element/logo_fb.png"></a>
+                        <a href="mailto:khanhan1310205@gmail.com" class="iconAnimate "><img
+                                src="element/logo_mail 3.png"></a>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="LetsCreate"><span class="DINLetsCreate">LET'S</span> CREATE</p>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!--  DRAG ELEMENT  -->
+    <script>
+        var chooseElement;
+
+        const move = function (element) {
+            const elements = document.querySelectorAll(".element")
+
+            elements.forEach(element => {
+                element.addEventListener("mousedown", () => {
+                    element.style.position = "absolute"
+                    chooseElement = element
+
+                    document.onmousemove = (e) => {
+                        var x = e.pageX
+                        var y = e.pageY
+
+                        chooseElement.style.left = x / 2 / 0.65 + "px"
+                        chooseElement.style.top = y / 2 / 0.65 + "px"
+
+                        console.log(chooseElement)
+                    }
+                })
+            })
+            document.onmouseup = function (e) {
+                chooseElement = null
+            }
+        }
+    </script>
+
+    <!-- CURSOR JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="cursor.js"></script>
+
+
+
+</body>
+
+</html>
